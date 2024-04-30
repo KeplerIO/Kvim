@@ -1,11 +1,7 @@
-local get_dirname = function ()
-	local cwd = vim.fn.getcwd();
-    return cwd;
-end
-
 require("presence").setup({
     auto_update         = true,
     neovim_image_text   = "Kvim - Lightweight, minimalistic Neovim config",
+    buttons             = false,
     show_time           = false,
     editing_text        = "File: %s",
     file_explorer_text  = "Browsing file tree...",
