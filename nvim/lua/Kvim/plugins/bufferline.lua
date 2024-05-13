@@ -27,7 +27,7 @@ bufferline.setup({
         offsets = {
             {
                 filetype = "NvimTree",
-                text = "KeplerVim 1.0",
+                text = "Kvim",
                 text_align = "center",
                 separator = true
             }
