@@ -46,8 +46,8 @@ return packer.startup(function(use)
 	});
 
 	use({
-		"savq/melange-nvim",
-		print("[KeplerVim] PACKER -> Loaded Melange (Color scheme)")
+		"scottmckendry/cyberdream.nvim",
+		print("[KeplerVim] PACKER -> Loaded Cyberdream.nvim (Color scheme)")
 	});
 
 	use({
