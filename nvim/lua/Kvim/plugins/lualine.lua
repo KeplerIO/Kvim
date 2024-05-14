@@ -1,6 +1,7 @@
 require("lualine").setup {
     options = {
       icons_enabled = true,
+      theme = "cyberdream";
       component_separators = { left = "", right = ""},
       section_separators = { left = "", right = "" },
       disabled_filetypes = {
