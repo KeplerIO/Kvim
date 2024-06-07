@@ -1,4 +1,4 @@
-local projectName = vim.fn.getcwd():gsub('.*[%/%\\]', '');
+local projectName = vim.fn.getcwd():gsub(".*[%/%\\]", "");
 
 require("presence").setup({
     auto_update         = true,
