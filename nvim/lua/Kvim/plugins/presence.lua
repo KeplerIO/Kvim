@@ -1,3 +1,5 @@
+local projectName = vim.fn.getcwd():gsub(".*[%/%\\]', '");
+
 require("presence").setup({
     auto_update         = true,
     neovim_image_text   = "Kvim - Lightweight, minimalistic Neovim config",
@@ -8,6 +10,6 @@ require("presence").setup({
     git_commit_text     = "Committing changes",
     plugin_manager_text = "Managing plugins",
     reading_text        = "File: %s",
-    workspace_text      = "Project: %s",
+    workspace_text      = "Project: " .. projectName,
     line_number_text    = "Line %s out of %s",
 });
