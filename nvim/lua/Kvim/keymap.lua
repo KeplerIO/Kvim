@@ -24,4 +24,4 @@ vim.keymap.set("n", "<CR>", treeAPI.node.open.edit, treeOpts("Open"));
 vim.keymap.set("n", "<2-LeftMouse>", treeAPI.node.open.edit, treeOpts("Open"));
 vim.keymap.set("n", "a", treeAPI.fs.create, treeOpts("Create File or Directory"));
 vim.keymap.set("n", "r", treeAPI.fs.rename_basename, treeOpts("Rename: Basename"));
-vim.keymap.set("n", "x", treeAPI.fs.remove, treeOpts("Delete"));
+vim.keymap.set("n", "<Del>", treeAPI.fs.remove, treeOpts("Delete"));
