@@ -19,4 +19,4 @@ require("Kvim.plugins.nvim-tree");
 require("Kvim.plugins.telescope");
 require("Kvim.plugins.treesitter");
 require("Kvim.plugins.alpha");
-require("Kvim.plugins.presence");
+--require("Kvim.plugins.presence");
