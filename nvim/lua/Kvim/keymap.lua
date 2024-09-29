@@ -27,4 +27,4 @@ vim.keymap.set("n", "r", treeAPI.fs.rename_basename, treeOpts("Rename: Basename"
 vim.keymap.set("n", "<Del>", treeAPI.fs.remove, treeOpts("Delete"));
 
 --Lsp
-vim.keymap.set("n", "gp", "<cmd>lua vim.lsp.buf.definition()<CR><C-w>P", { noremap = true, silent = true });
+vim.keymap.set("n", "gp", "<cmd>lua vim.lsp.buf.definition()<CR><C-w>P", opts);
