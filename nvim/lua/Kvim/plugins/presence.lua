@@ -1,6 +1,7 @@
 local cwd = vim.fn.getcwd();
 local projectName = vim.fn.fnamemodify(cwd, ":t");
 
+--[[
 require("presence").setup({
     auto_update         = true,
     neovim_image_text   = "Kvim inside",
@@ -14,3 +15,5 @@ require("presence").setup({
     workspace_text      = "Project: " .. projectName,
     line_number_text    = "Line %s out of %s",
 });
+
+]]--#region
