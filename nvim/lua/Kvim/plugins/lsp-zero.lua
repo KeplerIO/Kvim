@@ -24,7 +24,7 @@ require("mason-lspconfig").setup({
 		"sqlls",
 		"svelte",
 		"tailwindcss",
-		"tsserver",
+		"ts_ls",
 		"yamlls",
 		"emmet_ls"
 	},
