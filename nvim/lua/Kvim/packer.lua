@@ -115,10 +115,12 @@ return packer.startup(function(use)
 		print("[Kvim] PACKER -> Loaded alpha-nvim (Dashboard/Start screen)")
 	});
 
+	--[[
 	use({
 		"andweeb/presence.nvim",
 		print("[Kvim] PACKER -> Loaded presence.nvim (Discord rich presence)")
 	});
+	]]
 
 	if packer_is_bootstrapping then
 		print("[Kvim] PACKER -> Syncing self to complete bootstrap process");
