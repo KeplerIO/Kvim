@@ -58,7 +58,7 @@ return packer.startup(function(use)
 
 	use({
 		"nvim-treesitter/nvim-treesitter",
-		{ run = ":TSUpdate" },
+		run = ":TSUpdate",
 		print("[Kvim] PACKER -> Loaded Treesitter (Parser)")
 	});
 
