@@ -20,6 +20,7 @@ require("mason-lspconfig").setup({
 		"jsonls",
 		"lua_ls",
 		"omnisharp",
+		"pyright",
 		"ruby_lsp",              --Requires Ruby/RubyGems to be installed on the user's machine
 		"sqlls",
 		"svelte",
